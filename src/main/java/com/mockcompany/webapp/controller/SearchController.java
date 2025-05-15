@@ -45,7 +45,7 @@ public class SearchController {
 
     // Update constructor to inject SearchService
     @Autowired
-    public SearchController(SearchService searchService) {
+   public SearchController(SearchService searchService) {
         this.searchService = searchService;
     }
 
